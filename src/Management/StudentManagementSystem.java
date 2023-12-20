@@ -30,6 +30,15 @@ public class StudentManagementSystem {
         }
     }
 
+    public void displayAllGrades1() {
+        for (Student student : students) {
+            System.out.println("Student ID: " + student.getStudentId());
+            System.out.println("Name: " + student.getName());
+            System.out.println("Average Grade: " + student.calculateAverageGrade());
+            System.out.println("-------------");
+        }
+    }
+    
     public static void main(String[] args) {
         StudentManagementSystem system = new StudentManagementSystem();
 
@@ -53,5 +62,10 @@ public class StudentManagementSystem {
     public void displayAllCourses() {
         // TODO: Implement this method
     }
+
+	public void displayAllGrades() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 

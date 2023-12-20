@@ -49,4 +49,14 @@ public class Student {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public void addGrade(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String calculateAverageGrade() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

@@ -19,5 +19,18 @@ public class Main {
 
         system.displayAllStudents();
         system.displayAllCourses();
+        
+        // Create some students
+        Student student1 = new Student("S001", "John", 0, null);
+        student1.addGrade(90);
+        student1.addGrade(85);
+
+        Student student2 = new Student("S002", "Jane", 0, null);
+        student2.addGrade(75);
+        student2.addGrade(80);
+
+        system.addStudent(student1);
+        system.addStudent(student2);
+        system.displayAllGrades();
     }
 }
